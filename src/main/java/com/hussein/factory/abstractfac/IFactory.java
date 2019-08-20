@@ -2,7 +2,7 @@ package com.hussein.factory.abstractfac;
 
 /**
  * <p>Title: IFactory</p>
- * <p>Description: </p>
+ * <p>Description: 抽象工厂</p>
  * <p>Company: www.hussein.com</p>
  *
  * @author hwangsy
