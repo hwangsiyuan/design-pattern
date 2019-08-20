@@ -2,7 +2,7 @@ package com.hussein.factory.simple;
 
 /**
  * <p>Title: SimpleFactory</p>
- * <p>Description: </p>
+ * <p>Description: 简单工厂</p>
  * <p>Company: www.hussein.com</p>
  *
  * @author hwangsy
