@@ -8,13 +8,13 @@ package com.hussein.singleton;
  * @author hwangsy
  * @date 2019/8/21 4:16 PM
  */
-public enum  HungryEnumSingleton {
+public enum HungryEnumSingleton {
 
     //默认实例
     INSTANCE;
 
-    public static HungryEnumSingleton getInstance(){
-        return  INSTANCE;
+    public static HungryEnumSingleton getInstance() {
+        return INSTANCE;
     }
 
     public static void main(String[] args) {
