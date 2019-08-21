@@ -17,6 +17,8 @@ public class Director {
     }
 
     public void construct() {
+        builder.buildFirstPart();
+        builder.buildSecondPart();
         System.out.println(builder.build());
     }
 }

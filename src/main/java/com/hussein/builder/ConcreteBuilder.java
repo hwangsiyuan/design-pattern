@@ -24,8 +24,6 @@ public class ConcreteBuilder implements Builder {
 
     @Override
     public Product build() {
-        buildFirstPart();
-        buildSecondPart();
         return product;
     }
 }
