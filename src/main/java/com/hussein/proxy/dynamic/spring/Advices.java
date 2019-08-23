@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 /**
  * <p>Title: Advices</p>
- * <p>Description: </p>
+ * <p>Description: Aop动态代理</p>
  * <p>Company: www.hussein.com</p>
  *
  * @author hwangsy
