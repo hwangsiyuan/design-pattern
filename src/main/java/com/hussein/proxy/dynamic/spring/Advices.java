@@ -33,8 +33,8 @@ public class Advices {
         System.out.println("方法名" + jp.getSignature() + ",异常:" + e.getMessage());
     }
 
-    public Object arround(ProceedingJoinPoint pjp){
-        System.out.println("------------------------before--------------------------");
+    public Object around(ProceedingJoinPoint pjp){
+        System.out.println("----------------------around before------------------------");
         System.out.println("方法名" + pjp.getSignature() + ",参数" + Arrays.toString(pjp.getArgs()) + ",代理对象:" + pjp.getTarget().getClass().getName());
         Object result = null;
         try {
@@ -44,7 +44,7 @@ public class Advices {
             throwable.printStackTrace();
             System.out.println("方法名" + pjp.getSignature() + ",异常:" + throwable.getMessage());
         }
-        System.out.println("------------------------after---------------------------");
+        System.out.println("----------------------around after-------------------------");
         return result;
     }
 

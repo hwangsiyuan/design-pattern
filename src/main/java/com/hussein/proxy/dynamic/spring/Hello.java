@@ -21,4 +21,8 @@ public class Hello {
         System.out.println("hello " + name);
         return name;
     }
+
+    public void error(){
+        throw new RuntimeException("some error.");
+    }
 }
