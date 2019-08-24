@@ -12,8 +12,6 @@ public class ConcreteObserver implements Observer {
 
     private String name;
 
-    private String state;
-
     private ConcreteSubject subject;
 
     public ConcreteObserver(String name, ConcreteSubject subject) {
